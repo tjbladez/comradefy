@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'comradefy'
+
+if ARGV[0]
+  puts Comradefy.report ARGV.join(' ')
+else
+  puts Comradefy.report STDIN.read
+end
