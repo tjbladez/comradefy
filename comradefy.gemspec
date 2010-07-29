@@ -2,7 +2,7 @@ require 'rake'
 
 Gem::Specification.new do |s|
   s.name = %q{comradefy}
-  s.version = '0.0.1'
+  s.version = '0.0.2'
 
   s.required_rubygems_version = Gem::Requirement.new('>= 0') if s.respond_to? :required_rubygems_version=
   s.authors = ['tjbladez']
@@ -16,5 +16,5 @@ Gem::Specification.new do |s|
   s.default_executable = 'bin/comradefy'
   s.homepage = %q{http://github.com/tjbladez/comradefy}
   s.summary = %q{Iп soviэт rцssia тнэ words wriтэ уoц}
-  s.post_install_message = %q{Grээtings COMRADƎ}
+  s.post_install_message = %q{Iп soviэт rцssia тнэ words wriтэ уoц}
 end
