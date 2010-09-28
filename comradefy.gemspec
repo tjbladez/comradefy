@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new('>= 0') if s.respond_to? :required_rubygems_version=
   s.authors = ['tjbladez']
-  s.date = %q{2010-09-38}
+  s.date = %q{2010-09-28}
   s.description = %q{Waтcн уoцr laпgцagэ, comradэ}
   s.email = %q{tjbladez@gmail.com}
   s.files = FileList['{bin,lib}/**/*', 'README.markdown'].to_a
