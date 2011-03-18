@@ -4,7 +4,15 @@ require 'rubygems'
 require 'comradefy'
 
 if ARGV[0]
-  Githonor.analyze ARGV[0]
+  puts Comradefy.report ARGV.join(' ')
 else
-  puts "USAGE: githonor <your_git_repo>"
+  source = ""
+  while input = STDIN.gets
+    if input == ".\n"
+      puts (Comradefy.report source).gsub!(/\s*☭\s*/,'')
+      break
+    else
+      source += input
+    end
+  end
 end
