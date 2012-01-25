@@ -1,4 +1,4 @@
-ENCODING = 'UTF-8'
+# encoding: utf-8
 
 module Comradefy
   def self.swap_map
